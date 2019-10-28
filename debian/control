@@ -1,0 +1,12 @@
+Source: ros-kinetic-turtlebot-loadout-kha1
+Section: misc
+Priority: optional
+Maintainer: HXR <code@hxr.io>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-turtlebot-loadout-kha1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Enables the TurtleBot mobile robot KHA1 hardware loadout
